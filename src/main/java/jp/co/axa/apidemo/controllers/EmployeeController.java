@@ -26,29 +26,48 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
+    /*
+     * http://localhost:8080/api/v1/employees
+     */
     @GetMapping("/employees")
     public List<Employee> getEmployees() {
         List<Employee> employees = employeeService.retrieveEmployees();
         return employees;
     }
 
+    /*
+     * getting Employee object by id
+     * http://localhost:8080/api/v1/employees/{employeeId}
+     */
     @GetMapping("/employees/{employeeId}")
     public Employee getEmployee(@PathVariable(name="employeeId")Long employeeId) {
         return employeeService.getEmployee(employeeId);
     }
 
+    /*
+     * http://localhost:8080/api/v1/employees
+     * with post method in form value 
+     */
     @PostMapping("/employees")
     public void saveEmployee(Employee employee){
         employeeService.saveEmployee(employee);
         System.out.println("Employee Saved Successfully");
     }
 
+    /*
+     * deleting employee by id
+     * http://localhost:8080/api/v1/employees/{employeeId}
+     */
     @DeleteMapping("/employees/{employeeId}")
     public void deleteEmployee(@PathVariable(name="employeeId")Long employeeId){
         employeeService.deleteEmployee(employeeId);
         System.out.println("Employee Deleted Successfully");
     }
 
+    /*
+     * updating Employee object by id
+     * http://localhost:8080/api/v1/employees/{employeeId}
+     */
     @PutMapping("/employees/{employeeId}")
     public void updateEmployee(@RequestBody Employee employee,
                                @PathVariable(name="employeeId")Long employeeId){
