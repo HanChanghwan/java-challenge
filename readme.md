@@ -45,8 +45,15 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 #### Your experience in Java
 
-Please let us know more about your Java experience in a few sentences. For example:
+-My Java experience
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+- I have about 13 years experience in Java and JavaScript, html, jsp etc and I started to use Spring 3 years ago.
+- Recently, I had been supporting of introduction of CI pipeline in Azure DevOps and SonarQube for analysis the code 
+- against Java-web system based on ant-build at Daiichi Life project.
+- I have also experience below's languages and database etc..
+- struts,VB6,VB.Net,Excel-VBA,C#,ASP.NET,oracle,sql-server,web Sphere(4,5,6),tomcat,GitLab,JIRA,confluence-page,Jenkins.
+
+
+#### My additional comments
+- I have added the logic for caching of h2 database and junit-testing for CRUD(create, read, update, delete) of database.
+- If you had more time, I would like to add junit-testing for REST-API.

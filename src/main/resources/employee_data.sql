@@ -1,0 +1,5 @@
+INSERT INTO employee (id, EMPLOYEE_NAME, EMPLOYEE_SALARY, DEPARTMENT, created_user, created_time, updated_user, updated_time) VALUES(1,'tom', 300000, 'dept1', 'admin', '2023-03-14 20:22:23',null,null);
+INSERT INTO employee (id, EMPLOYEE_NAME, EMPLOYEE_SALARY, DEPARTMENT, created_user, created_time, updated_user, updated_time) VALUES(2,'tommy', 400000, 'dept2', 'admin', '2023-03-14 20:22:23',null,null);
+INSERT INTO employee (id, EMPLOYEE_NAME, EMPLOYEE_SALARY, DEPARTMENT, created_user, created_time, updated_user, updated_time) VALUES(3,'tanaka', 500000, 'dept3', 'admin', '2023-03-14 20:22:23',null,null);
+INSERT INTO employee (id, EMPLOYEE_NAME, EMPLOYEE_SALARY, DEPARTMENT, created_user, created_time, updated_user, updated_time) VALUES(4,'sato', 600000, 'dept4', 'admin', '2023-03-14 20:22:23',null,null);
+INSERT INTO employee (id, EMPLOYEE_NAME, EMPLOYEE_SALARY, DEPARTMENT, created_user, created_time, updated_user, updated_time) VALUES(5,'james', 700000, 'dept5', 'admin', '2023-03-14 20:22:23',null,null);
