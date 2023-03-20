@@ -56,4 +56,4 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 #### My additional comments
 - I have added the logic for caching of h2 database and junit-testing for CRUD(create, read, update, delete) of database.
-- If you had more time, I would like to add junit-testing for REST-API.
+- If I had more time, I would like to add junit-testing for REST-API.
